@@ -1,0 +1,1126 @@
+2018/04/29 15:30:18 [error] 6#6: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:30:18 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2018/04/29 15:32:02 [error] 6#6: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:32:03 [error] 6#6: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:32:03 [error] 6#6: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:32:03 [error] 6#6: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:32:04 [error] 6#6: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:32:04 [error] 6#6: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:32:04 [error] 6#6: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:32:04 [error] 6#6: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 15:32:22 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:32:23 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:32:24 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:32:26 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:32:27 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:32:30 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:32:34 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:32:41 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:32:55 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:33:23 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:33:24 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:33:26 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:33:27 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:33:29 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:33:31 [emerg] 1#1: unknown directive "W" in /etc/nginx/nginx.conf:15
+2018/04/29 15:54:44 [alert] 6#6: 1024 worker_connections are not enough
+2018/04/29 15:54:44 [error] 6#6: *1022 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.0", upstream: "http://127.0.0.1:80/index.php", host: "127.0.0.1"
+2018/04/29 15:54:44 [error] 6#6: *1022 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.0", upstream: "http://127.0.0.1:80/index.php", host: "127.0.0.1"
+2018/04/29 15:57:07 [emerg] 1#1: unknown "root" variable
+2018/04/29 15:57:08 [emerg] 1#1: unknown "root" variable
+2018/04/29 15:57:10 [emerg] 1#1: unknown "root" variable
+2018/04/29 15:57:11 [emerg] 1#1: unknown "root" variable
+2018/04/29 15:57:12 [emerg] 1#1: unknown "root" variable
+2018/04/29 15:57:15 [emerg] 1#1: unknown "root" variable
+2018/04/29 15:57:19 [emerg] 1#1: unknown "root" variable
+2018/04/29 15:57:26 [emerg] 1#1: unknown "root" variable
+2018/04/29 16:01:37 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:01:41 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:01:45 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:03:02 [error] 7#7: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2018/04/29 16:03:02 [error] 7#7: *7 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/04/29 16:03:04 [error] 7#7: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost"
+2018/04/29 16:03:08 [error] 7#7: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:03:15 [error] 7#7: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:04:05 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:05 [error] 6#6: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:06 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:06 [error] 6#6: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:06 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:06 [error] 6#6: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:07 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:07 [error] 6#6: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:07 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:07 [error] 6#6: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:07 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:07 [error] 6#6: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:42 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:42 [error] 6#6: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:43 [error] 6#6: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:43 [error] 6#6: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:43 [error] 6#6: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:43 [error] 6#6: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:44 [error] 6#6: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:44 [error] 6#6: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:44 [error] 6#6: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:04:44 [error] 6#6: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:05:30 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:05:52 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:09:40 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:09:41 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:10:43 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:10:45 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:10:47 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:10:48 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:10:50 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:10:52 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:10:56 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:11:04 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:11:17 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:11:39 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:39 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:40 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:40 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:40 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:40 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:40 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:40 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:41 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:42 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:11:42 [error] 7#7: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1"
+2018/04/29 16:14:02 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:03 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:04 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:06 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:07 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:10 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:14 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:21 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:35 [emerg] 1#1: host not found in upstream "fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:14:50 [error] 6#6: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:17:12 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:17:13 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:17:13 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:17:13 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:17:14 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:17:14 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:17:14 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:17:14 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:23:15 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:23:16 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:23:18 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:23:19 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:23:22 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:23:26 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:23:33 [emerg] 1#1: host not found in upstream "php-fpm" in /etc/nginx/conf.d/default.conf:31
+2018/04/29 16:24:07 [error] 6#6: *1 "/app/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:25:37 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:28:32 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:28:35 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:28:36 [error] 7#7: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:31:46 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:35:01 [error] 6#6: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "172.18.0.1"
+2018/04/29 16:35:01 [error] 6#6: *3 open() "/app/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "172.18.0.1", referrer: "http://172.18.0.1/"
+2018/04/29 16:35:04 [error] 6#6: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "172.18.0.1"
+2018/04/29 16:35:07 [error] 6#6: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "172.18.0.1"
+2018/04/29 16:35:37 [error] 6#6: *10 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:37:34 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:37:35 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:37:35 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:37:35 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:40:42 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:40:43 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:40:44 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:40:45 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:43:16 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:16 [error] 6#6: *1 open() "/mnt/codetest/code/php/www/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2018/04/29 16:43:17 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:17 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:17 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:17 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:22 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 16:43:26 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:50 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:51 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:51 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:51 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:43:51 [error] 6#6: *1 "/mnt/codetest/code/php/www/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/04/29 16:46:18 [error] 7#7: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/29 17:03:56 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php:8
+Stack trace:
+#0 /app/index.php(8): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /app/index.php:8
+Stack trace:
+#0 /app/index.php(8): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:03:58 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php:8
+Stack trace:
+#0 /app/index.php(8): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /app/index.php:8
+Stack trace:
+#0 /app/index.php(8): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:04:11 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /app/index.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:04:11 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /app/index.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:04:11 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /app/index.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:04:12 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /app/index.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:04:12 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in /app/index.php:9
+Stack trace:
+#0 /app/index.php(9): PDO->__construct('mysql:host=mysq...', 'root', '123456')
+#1 {main}
+  thrown in /app/index.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:05:17 [error] 6#6: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:05:17 [error] 6#6: *2 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:05:46 [error] 6#6: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:05:46 [error] 6#6: *2 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:05:46 [error] 6#6: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:05:46 [error] 6#6: *2 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:40 [error] 7#7: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:40 [error] 7#7: *2 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:41 [error] 7#7: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:41 [error] 7#7: *2 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:41 [error] 7#7: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:41 [error] 7#7: *2 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:41 [error] 7#7: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:41 [error] 7#7: *2 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:52 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:07:53 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:13:14 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:13:15 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:13:57 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:13:58 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:13:58 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:13:58 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:02 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:03 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:03 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:04 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:04 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:55 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:55 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:56 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:56 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:24:56 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  main(): Property access is not allowed yet in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:25:04 [error] 7#7: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:25:04 [error] 7#7: *1 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:25:12 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:25:46 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:26:42 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:26:43 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:26:43 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:26:43 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:26:43 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::connect(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:02 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:02 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:02 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:03 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:03 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::connect(): (HY000/2002): Connection refused in /app/index.php on line 10
+PHP message: PHP Warning:  mysqli::select_db(): invalid object or resource mysqli
+ in /app/index.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:23 [error] 7#7: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:23 [error] 7#7: *1 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:24 [error] 7#7: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:27:24 [error] 7#7: *1 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:28:06 [error] 7#7: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/29 17:28:06 [error] 7#7: *1 open() "/app/50x.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:37:35 [error] 6#6: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "127.0.0.1"
+2018/04/30 07:37:35 [error] 6#6: *1 open() "/app/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2018/04/30 07:44:36 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:48:45 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:48:46 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:48:46 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:48:46 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:48:46 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:48:47 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:48:47 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:48:47 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:49:02 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:49:03 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:49:03 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:51:42 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:51:58 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:51:59 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:51:59 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:51:59 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:52:11 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:56:59 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:56:59 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:56:59 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:57:00 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:57:00 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:57:00 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:57:00 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:57:00 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:58:01 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:58:01 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:58:02 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:58:02 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:58:02 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:58:59 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:00 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:00 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:10 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:10 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:10 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:11 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:11 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:11 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:11 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:11 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:12 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:37 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 07:59:38 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:07 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:07 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:08 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:08 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:08 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:52 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:52 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:52 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:04:53 [error] 7#7: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:07:26 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:08:32 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:08:33 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:08:33 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:08:33 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:08:33 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:08:33 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:08:47 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:09:22 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:09:22 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:09:22 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:09:23 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:09:23 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Property access is not allowed yet in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8
+PHP message: PHP Warning:  var_dump(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:10:04 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:10:05 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:10:05 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:10:05 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:10:23 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:10:23 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:10:23 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:10:23 [error] 6#6: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:13:31 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:13:31 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:13:32 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:13:32 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:13:32 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /app/index.php on line 7
+PHP message: PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /app/index.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:13:53 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:14:37 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:14:38 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:14:38 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:14:38 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:14:38 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:18:47 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:18:48 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:18:48 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:18:58 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:18:58 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:18:59 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:18:59 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:19:11 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:19:11 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:19:11 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:19:12 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:19:12 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:19:57 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:20:18 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:20:23 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:20:31 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:20:32 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:20:32 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:20:32 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:21:03 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:21:58 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:21:59 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:21:59 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:21:59 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:21:59 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:22:11 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:22:12 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:22:12 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:22:12 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:22:38 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:24:02 [error] 6#6: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:24:03 [error] 6#6: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:24:03 [error] 6#6: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:24:37 [error] 6#6: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:24:38 [error] 6#6: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:24:38 [error] 6#6: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:24:38 [error] 6#6: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:24:38 [error] 6#6: *43 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:31:38 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:31:38 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:31:39 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:31:39 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:05 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:06 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:06 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:06 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:06 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:07 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:08 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:16 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:17 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:17 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:46 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:46 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:47 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:32:47 [error] 6#6: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:36 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:37 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:37 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:37 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:37 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:48 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:48 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:49 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:52 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:59 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:59 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"
+2018/04/30 08:35:59 [error] 6#6: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: conn in /app/index.php on line 13
+PHP message: PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /app/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /app/index.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "127.0.0.1"

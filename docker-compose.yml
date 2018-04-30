@@ -1,0 +1,28 @@
+version: "2"
+services:
+  nginx:
+    restart: always
+    image: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /mnt/codetest/code/php/conf/nginx/conf.d:/etc/nginx/conf.d
+      - /mnt/codetest/code/php/conf/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - /mnt/codetest/code/php/log/nginx:/var/log/nginx
+    links:
+      - "php-fpm:php-fpm"
+    depends_on:
+      - php-fpm
+    volumes_from:
+      - php-fpm
+  php-fpm:
+    restart: always
+    image: bitnami/php-fpm
+    expose:
+      - "9000"
+    volumes:
+      - /mnt/codetest/code/php/conf/php/php.ini:/opt/bitnami/php/etc/php.ini
+      - /mnt/codetest/code/php/conf/php/php-fpm.conf:/opt/bitnami/php/etc/php-fpm.conf
+      - /mnt/codetest/code/php/log/php:/opt/bitnami/php/logs
+      - /mnt/codetest/code/php/www:/app

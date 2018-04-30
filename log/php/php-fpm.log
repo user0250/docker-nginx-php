@@ -1,0 +1,17 @@
+[29-Apr-2018 15:48:32] ERROR: unable to bind listening socket for address '9000': Address already in use (98)
+[29-Apr-2018 15:48:32] ERROR: FPM initialization failed
+[29-Apr-2018 15:48:32] ALERT: oops, unknown child (15) exited with code 78. Please open a bug report (https://bugs.php.net).
+[29-Apr-2018 15:52:50] ERROR: unable to bind listening socket for address '9000': Address already in use (98)
+[29-Apr-2018 15:52:50] ERROR: FPM initialization failed
+[29-Apr-2018 15:52:50] ALERT: oops, unknown child (16) exited with code 78. Please open a bug report (https://bugs.php.net).
+[29-Apr-2018 17:05:17] WARNING: [pool www] child 8 exited on signal 11 (SIGSEGV - core dumped) after 0.661589 seconds from start
+[29-Apr-2018 17:05:46] WARNING: [pool www] child 11 exited on signal 11 (SIGSEGV - core dumped) after 0.138270 seconds from start
+[29-Apr-2018 17:05:46] WARNING: [pool www] child 12 exited on signal 11 (SIGSEGV - core dumped) after 0.885300 seconds from start
+[29-Apr-2018 17:07:40] WARNING: [pool www] child 7 exited on signal 11 (SIGSEGV - core dumped) after 0.133675 seconds from start
+[29-Apr-2018 17:07:41] WARNING: [pool www] child 8 exited on signal 11 (SIGSEGV - core dumped) after 0.719918 seconds from start
+[29-Apr-2018 17:07:41] WARNING: [pool www] child 9 exited on signal 11 (SIGSEGV - core dumped) after 0.171684 seconds from start
+[29-Apr-2018 17:07:41] WARNING: [pool www] child 10 exited on signal 11 (SIGSEGV - core dumped) after 0.183581 seconds from start
+[29-Apr-2018 17:25:04] WARNING: [pool www] child 6 exited on signal 11 (SIGSEGV - core dumped) after 9.155832 seconds from start
+[29-Apr-2018 17:27:23] WARNING: [pool www] child 11 exited on signal 11 (SIGSEGV - core dumped) after 0.133357 seconds from start
+[29-Apr-2018 17:27:24] WARNING: [pool www] child 12 exited on signal 11 (SIGSEGV - core dumped) after 1.027355 seconds from start
+[29-Apr-2018 17:28:06] WARNING: [pool www] child 14 exited on signal 11 (SIGSEGV - core dumped) after 12.681177 seconds from start
