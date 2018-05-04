@@ -1,22 +1,23 @@
 version: "2"
 services:
-  nginx:  #服务名字
+  service_nginx:
     restart: always
-    image: nginx #镜像
-    ports: #开启映射端口
+    image: nginx
+    ports:
       - "80:80"
       - "443:443"
     volumes:
       - ./conf/nginx/conf.d:/etc/nginx/conf.d
       - ./conf/nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./log/nginx:/var/log/nginx
-    links: # 网络链接 php-fpm服务
-      - "php-fpm:php-fpm"
-    depends_on: #依赖，等php-cpm启动后，启动
-      - php-fpm
-    volumes_from: #磁盘共享
-      - php-fpm
-  php-fpm:
+    links:
+      - "service_php-fpm:service_php-fpm"
+      - "service_mysql:service_mysql"
+    depends_on:
+      - service_php-fpm
+    volumes_from:
+      - service_php-fpm
+  service_php-fpm:
     restart: always
     image: bitnami/php-fpm
     expose:
@@ -26,3 +27,16 @@ services:
       - ./conf/php/php-fpm.conf:/opt/bitnami/php/etc/php-fpm.conf
       - ./log/php:/opt/bitnami/php/logs
       - ./www:/app
+    links:
+      - "service_mysql:service_mysql"
+  service_mysql:
+    restart: always
+    image: docker.io/mysql:5.7
+    expose:
+      - "3306"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+      - ./log/mysql:/var/log/mysql
+
