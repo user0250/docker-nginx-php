@@ -1,0 +1,338 @@
+2018/05/04 06:56:18 [error] 8#8: *1 open() "/app/favicon.ico" failed (2: No such file or directory), client: 192.168.31.240, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.31.99", referrer: "http://192.168.31.99/"
+2018/05/04 08:37:02 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/default.conf:8
+2018/05/04 08:37:03 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/default.conf:8
+2018/05/04 08:37:04 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/default.conf:8
+2018/05/04 08:37:05 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/default.conf:8
+2018/05/04 08:37:06 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/default.conf:8
+2018/05/04 08:37:09 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/default.conf:8
+2018/05/04 08:37:13 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/default.conf:8
+2018/05/04 08:41:08 [error] 6#6: *2 directory index of "/app/firmoo/" is forbidden, client: 192.168.31.240, server: localhost, request: "GET / HTTP/1.1", host: "192.168.31.99:8080"
+2018/05/04 08:41:08 [error] 6#6: *2 open() "/app/firmoo/favicon.ico" failed (2: No such file or directory), client: 192.168.31.240, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.31.99:8080", referrer: "http://192.168.31.99:8080/"
+2018/05/04 08:41:10 [error] 6#6: *2 directory index of "/app/firmoo/" is forbidden, client: 192.168.31.240, server: localhost, request: "GET / HTTP/1.1", host: "192.168.31.99:8080"
+2018/05/04 08:41:47 [error] 6#6: *5 directory index of "/app/firmoo/" is forbidden, client: 192.168.31.240, server: localhost, request: "GET / HTTP/1.1", host: "192.168.31.99:8080"
+2018/05/04 08:41:48 [error] 6#6: *5 directory index of "/app/firmoo/" is forbidden, client: 192.168.31.240, server: localhost, request: "GET / HTTP/1.1", host: "192.168.31.99:8080"
+2018/05/04 08:41:48 [error] 6#6: *5 directory index of "/app/firmoo/" is forbidden, client: 192.168.31.240, server: localhost, request: "GET / HTTP/1.1", host: "192.168.31.99:8080"
+2018/05/04 08:41:49 [error] 6#6: *5 directory index of "/app/firmoo/" is forbidden, client: 192.168.31.240, server: localhost, request: "GET / HTTP/1.1", host: "192.168.31.99:8080"
+2018/05/04 08:41:49 [error] 6#6: *5 directory index of "/app/firmoo/" is forbidden, client: 192.168.31.240, server: localhost, request: "GET / HTTP/1.1", host: "192.168.31.99:8080"
+2018/05/04 08:43:58 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:43:59 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:44:00 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:44:00 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:44:01 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:44:01 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:44:01 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:44:01 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:44:02 [error] 7#7: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/
+2018/05/04 08:44:02 [error] 7#7: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:44:13 [error] 7#7: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:47:15 [error] 7#7: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:47:16 [error] 7#7: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:47:16 [error] 7#7: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:47:17 [error] 7#7: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:47:17 [error] 7#7: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:47:17 [error] 7#7: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:47:18 [error] 7#7: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:47:18 [error] 7#7: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:49:43 [error] 7#7: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:49:44 [error] 7#7: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:49:44 [error] 7#7: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
+2018/05/04 08:49:44 [error] 7#7: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/View.php(137): Illuminate\Vi...
+PHP message: PHP Fatal error:  Uncaught ErrorException: file_put_contents(/app/firmoo/storage/framework/views/173f28b0f463544769bb309cfdb7a96f47af7d36.php): failed to open stream: Permission denied in /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/app/firmoo/ven...', 122, Array)
+#1 /app/firmoo/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/app/firmoo/sto...', '<?php $__env->s...', 0)
+#2 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(121): Illuminate\Filesystem\Filesystem->put('/app/firmoo/sto...', '<?php $__env->s...')
+#3 /app/firmoo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/app/firmoo/ven...')
+#4 /app/firmoo/vendor/laravel
